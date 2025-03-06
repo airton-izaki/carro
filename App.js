@@ -1,6 +1,7 @@
 
 import {React, Component} from 'react';
 import { View, Text, Image } from 'react-native';
+import { useFonts, Montserrat_400Regular_Italic } from '@expo-google-fonts/montserrat';
 
 class App extends Component{
   render(){
@@ -11,7 +12,7 @@ class App extends Component{
         <Text 
             style = {
 				{
-					color: '#9133f5', fontSize: 30, marginBottom: 20, fontWeight: 'bold'
+					color: '#9133f5', fontSize: 30, marginBottom: 20, fontWeight: 'bold', fontFamily: Montserrat_400Regular_Italic
 				}
 			}
 			>Carros espetaculares
